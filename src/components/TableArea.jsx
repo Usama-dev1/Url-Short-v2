@@ -135,7 +135,7 @@ console.log(currentItems)
                  key={index}
                  className="bg-white border border-gray-200 w-full mb-4 p-4 rounded shadow">
                  <div className="flex flex-col">
-                   <div className="font-bold text-sorange">{item.url}</div>
+                   <div className="font-bold overflow-scroll text-sorange">{item.url}</div>
                    <a
                      href={`${domain}${item.shortId}`}
                      target="_blank"

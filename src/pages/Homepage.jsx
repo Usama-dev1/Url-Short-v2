@@ -6,7 +6,7 @@ const Homepage = () => {
     <>
       <div className="h-screen w-full mx-auto py-5 md:py-3 flex flex-col justify-center">
         <div className="flex flex-col justify-center text-center space-y-8 md:space-y-3">
-          <div className="flex items-center justify-around">
+          <div className="flex items-center justify-center flex-wrap">
             <img src={img1} alt="ninjaslice" className="h-60" />
             <h1 className="font-semibold text-2xl sm:text-4xl md:text-6xl leading-tight">
               Shorten and Share Links <br />
