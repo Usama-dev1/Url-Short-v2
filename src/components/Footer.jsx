@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-      <div className="h-40 block w-full bg-primary text-center">
+      <div className="h-30 block w-full bg-primary text-center">
         <div className="flex justify-center item-center space-x-5 md:ms-2 py-5 overflow-hidden">
           <FaFacebook className="text-secondary mx-1 w-6 h-6 hover:text-sorange" />
           <FaInstagram className="text-secondary mx-1 w-6 h-6 hover:text-sorange" />
