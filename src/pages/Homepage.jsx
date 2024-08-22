@@ -4,7 +4,7 @@ import img1 from "../assets/siteimg/1.png";
 const Homepage = () => {
   return (
     <>
-      <div className="min-h-screen mx-auto py-5 md:py-3 flex flex-col justify-center">
+      <div className="h-screen w-full mx-auto py-5 md:py-3 flex flex-col justify-center">
         <div className="flex flex-col justify-center text-center space-y-8 md:space-y-3">
           <div className="flex items-center justify-evenly">
             <img src={img1} alt="ninjaslice" className="h-60" />
